@@ -3831,8 +3831,8 @@ class IlsangDistributionBot(commands.AutoShardedBot):
 		id = msg.author.id #id라는 변수에는 메시지를 보낸사람의 ID를 담습니다.
 		
 		if chflg == 1 :
-			if self.get_channel(basicSetting[7]).id == msg.channel.id:
-				channel = basicSetting[7]
+			#if self.get_channel(basicSetting[7]).id == msg.channel.id:
+				#channel = basicSetting[7]
 				message = msg
 
 				for command_str in ["컷", "멍", "예상", "삭제", "메모", "카톡켬", "카톡끔"]:
